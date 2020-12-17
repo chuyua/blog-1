@@ -6,7 +6,7 @@ license: true
 slug: Cloudflare
 tags: ['Cloudflare', 'CDN']
 cate: tech
-cover_image: "https://cos.royce2003.top/f909dd9a/index_img.webp-cover"
+cover_image: "./images/cloudflare-free-CDN.png"
 canonical_url: false
 description: "Cloudflare 免费CDN配置教程"
 ---
