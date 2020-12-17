@@ -1,5 +1,5 @@
 ---
-title: Cloudflare 免费CDN配置教程
+title: "Cloudflare 免费CDN配置教程"
 date: 2020-12-13 13:53:56
 published: true
 license: true
@@ -8,7 +8,6 @@ tags: ['Cloudflare', 'CDN', '教程']
 cate: life
 cover_image: "https://cos.royce2003.top/f909dd9a/index_img.webp-cover"
 canonical_url: false
-description: "Cloudflare 免费CDN配置教程"
 ---
 # CloudFlare 免费CDN配置教程
 
