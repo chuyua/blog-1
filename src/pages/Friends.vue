@@ -47,7 +47,7 @@ export default {
         {
           id: "skrshadow",
           link: "https://www.skrshadow.cn",
-          g-image src: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/skrshadow.jpg?fmt=webp&w=100&h=100&q=100",
+          avatar: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/skrshadow.jpg?fmt=webp&w=100&h=100&q=100",
           background: "#078589"
         },
         {
