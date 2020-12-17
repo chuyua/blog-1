@@ -1,14 +1,14 @@
 ---
-title: "Artalk 自托管评论系统的后端部署"
-date: 2020-08-23
+title: "Cloudflare 免费CDN配置教程"
+date: 2020-12-12
 published: true
 license: true
-slug: artalk-api-php
-tags: ['Artalk', 'PHP']
+slug: Cloudflare
+tags: ['Cloudflare', 'CDN']
 cate: tech
 cover_image: "./images/artalk-api-php.png"
 canonical_url: false
-description: "Artalk 的后端部署教程"
+description: "Cloudflare 免费CDN配置教程"
 ---
 
 # CloudFlare 免费CDN配置教程
