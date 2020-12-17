@@ -12,14 +12,6 @@
           target="_blank"
           :style="'color: #fff; background-color: ' + friend.background"
           ><div class="friends-left">
-            <img
-              class="avatar"
-              :src="
-                'https://rmt.dogedoge.com/fetch/royce/storage/links/' +
-                  friend.id +
-                  '.jpg?w=100'
-              "
-            />
           </div>
           <div class="friends-right">
             <p class="friends-name">{{ friend.id }}</p>
@@ -53,85 +45,29 @@ export default {
     return {
       friends: [
         {
-          id: "Neworld2002",
-          link: "https://neworld2002.github.io/",
+          id: "skrshadow",
+          link: "https://www.skrshadow.cn",
+          avatar: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/skrshadow.jpg?fmt=webp&w=100&h=100&q=100",
           background: "#078589"
         },
         {
-          id: "Linhk1606",
-          link: "https://blog.lhkstudio.me/",
-          background: "#dfa07c"
+          id: "186526",
+          link: "https://186526.xyz",
+          avatar: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/186526%E7%9A%84%E5%8D%9A%E5%AE%A2.jpg?fmt=webp&w=100&h=100&q=100",
+          background: "#078589"
         },
         {
-          id: "吃白饭的休伯利安号",
-          link: "https://eatrice.top/",
-          background: "#384ea7"
+          id: "skrshadow",
+          link: "https://blog.dmcimi.top",
+          avatar: "Dmcimi",
+          background: "#078589"
         },
-        {
-          id: "JimmyQin",
-          link: "https://apde.xyz/",
-          background: "#108269"
+                {
+          id: "skrshadow",
+          link: "https://www.skrshadow.cn",
+          avatar: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/skrshadow.jpg?fmt=webp&w=100&h=100&q=100",
+          background: "#078589"
         },
-        {
-          id: "Sanarous",
-          link: "https://bestzuo.cn/",
-          background: "#cea463"
-        },
-        {
-          id: "keith",
-          link: "https://keithqwq.com/",
-          background: "#565656"
-        },
-        {
-          id: "Vince",
-          link: "https://i.vince.pub",
-          background: "#c97f76"
-        },
-        {
-          id: "奥秘 Sir",
-          link: "https://blog.say521.cn/",
-          background: "#38557e"
-        },
-        {
-          id: "饭庄",
-          link: "https://fanfan.im",
-          background: "#c83634"
-        },
-        {
-          id: "泫",
-          link: "https://blog.cugxuan.cn",
-          background: "#5aa979"
-        },
-        {
-          id: "Flexiston",
-          link: "https://www.flexiston.com",
-          background: "#a58884"
-        },
-        {
-          id: "ChrAlpha",
-          link: "https://ichr.me",
-          background: "#1d89a6"
-        },
-        {
-          id: "Uncle_drew",
-          link: "https://cndrew.cn/",
-          background: "#918b8b"
-        },
-        {
-          id: "Eren",
-          link: "https://erenship.com/",
-          background: "#d37597"
-        },
-        {
-          id: "Austen",
-          link: "https://blogbyme.cn/",
-          background: "#e1afa5"
-        },
-        {
-          id: "CYF",
-          link: "https://blog.cyfan.top/",
-          background: "#f6b352"
-        }
       ]
     };
   }

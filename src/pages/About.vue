@@ -11,43 +11,19 @@
         <h3 style="margin-top: 0" id="关于我"><a href="#关于我"></a>关于我</h3>
         <p>
           <a
-            href="https://jalenchuh.cn"
+            href="https://linik.ml"
             target="_blank"
             class="about-me"
             style="color: #0070f3"
             ><font-awesome :icon="['fas', 'id-badge']" /> Student</a
           >
-          /
-          <a
-            href="https://github.com/jalenchuh"
-            target="_blank"
-            class="about-me"
-            style="color: var(--title-color)"
-            ><font-awesome :icon="['fab', 'github']" /> Developer</a
-          >
-          /
-          <a
-            href="https://sspai.com/u/Jalen/posts"
-            target="_blank"
-            class="about-me"
-            style="color: #ca2c2a"
-            ><font-awesome :icon="['fas', 'pen-square']" /> Writer</a
-          >
         </p>
 
         <p>
-          欢迎来到小破站，我是 Jalen，00 后，性别男爱好女。<br />
+          欢迎来到小破站，我是 Lioil，00 后，性别男爱好女。<br />
           爱折腾的少年，信奉「好看就是生产力」（大雾），对大部分未知事物感兴趣。<br />
           喜欢 🏓 🏐 🏊‍♂️ 💻 and Emoji 😆<br />
           <s>坚定的</s>括号不换行党！只要你也不换行，我们就是好朋友
-        </p>
-
-        <p>
-          如果你想联系我，可以直接在评论里留言或者通过邮件
-          <a
-            href="javascript:location='mailto:\u006a\u0061\u006c\u0065\u006e\u0063\u0068\u0075\u0068\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"
-            >jalenchuh at gmail com</a
-          >
         </p>
 
         <h3 id="关于博客"><a href="#关于博客"></a>关于博客</h3>
@@ -58,13 +34,7 @@
             target="_blank"
             >gridsome-starter-blog</a
           >
-          搭建，参考
-          <a href="https://blog.spencerwoo.com/" target="_blank">Spencer</a> &
-          <a href="https://blog.monsterx.cn/" target="_blank">Monstx</a>
-          进行了修改。 如有疑问可以查看源码：
-          <a href="https://github.com/jalenchuh/blog" target="_blank"
-            >@jalenchuh/blog</a
-          >。
+          搭建
         </p>
         <p>
           本博客题图均为自制，大部分素材来自
@@ -173,8 +143,8 @@ export default {
         el: "#Artalk",
         placeholder: "欢迎留言",
         defaultAvatar: "mp",
-        pageKey: "https://blog.jalenchuh.cn/about",
-        serverUrl: "https://artalk.jalenchuh.cn",
+        pageKey: "https://blog.linik.ml/about",
+        serverUrl: "https://artalk",
         gravatar: {
           cdn: "https://dn-qiniu-avatar.qbox.me/avatar/"
         },

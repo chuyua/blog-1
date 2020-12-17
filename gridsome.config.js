@@ -8,8 +8,8 @@ const marked = require("marked");
 // const yaml = require('js-yaml')
 
 module.exports = {
-  siteUrl: "https://blog.jalenchuh.cn",
-  siteName: "Jalen's Blog",
+  siteUrl: "https://blog.linik.cn",
+  siteName: "Lioil's Blog",
   siteDescription: "爱折腾的少年",
 
   templates: {
@@ -43,8 +43,8 @@ module.exports = {
       options: {
         contentTypes: ["Post"],
         feedOptions: {
-          title: "Jalen's Blog",
-          description: "JalenChuh - 爱折腾的少年"
+          title: "Lioil's Blog",
+          description: "Lioil - 爱折腾的少年"
         },
         rss: {
           enabled: true,
@@ -63,7 +63,7 @@ module.exports = {
     {
       use: "@gridsome/plugin-google-analytics",
       options: {
-        id: "UA-172941976-1"
+        id: "UA-185656037-1"
       }
     },
     {
