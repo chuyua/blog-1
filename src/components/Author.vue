@@ -24,7 +24,7 @@
         ><font-awesome :icon="['fas', 'plane']"
       /></g-link>
       <g-link
-        href="//blog.jalenchuh.cn/atom.xml"
+        href="//www.linik.ml/atom.xml"
         title="RSS 订阅"
         target="_blank"
         style="color: #F5A623;"
