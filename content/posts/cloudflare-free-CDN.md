@@ -5,7 +5,6 @@ published: true
 license: true
 slug: Cloudflare
 tags: ['Cloudflare', 'CDN']
-cate: tech
 cover_image: "./images/cloudflare-free-CDN.png"
 canonical_url: false
 description: "Cloudflare 免费CDN配置教程"
