@@ -1,4 +1,4 @@
-# Jalen's blog
+# Lioil's blog
 
 ![status](https://img.shields.io/github/workflow/status/jalenchuh/blog/Deploy?style=flat)
 
@@ -36,8 +36,8 @@ Enjoy it. :bow:
 
 ---
 
-:man_technologist: **Jalen's blog** ©Jalen Chuh. Released under the MIT License.
+:man_technologist: **Lioil's blog** (c)Lioil Chuh. Released under the MIT License.
 
-Authored and maintained by Jalen Chuh.
+Authored and maintained by Lioil Chuh.
 
-[@Portfolio](https://jalenchuh.cn) · [@Blog](https://blog.jalenchuh.cn) · [@GitHub](https://github.com/jalenchuh)
+[@Portfolio](https://jalenchuh.cn) · [@Blog](https://www.linik.ml) · [@GitHub](https://github.com/jalenchuh)
