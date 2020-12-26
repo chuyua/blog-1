@@ -29,9 +29,9 @@ Cloudflare默认不支持自选节点,访问时的速度基本看脸。而我们
 ### 二、详细教程
 
 #### 视频教程
-<video src="https://dl.linik.ml/E5/%E6%96%87%E6%A1%A3/Documents/%E5%A4%96%E9%93%BE/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2CFP%E8%87%AA%E9%80%89%E8%8A%82%E7%82%B9%E7%9E%8E%E6%89%AF%E7%89%88.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+<video src="https://dl.linik.ml/%E6%96%87%E6%A1%A3/Documents/%E5%A4%96%E9%93%BE/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2CFP%E8%87%AA%E9%80%89%E8%8A%82%E7%82%B9%E7%9E%8E%E6%89%AF%E7%89%88.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 
-[在线播放/下载地址](https://dl.linik.ml/E5/文档/Documents/外链/如何部署CFP自选节点瞎扯版.mp4?preview)
+[在线播放/下载地址](https://dl.linik.ml/文档/Documents/外链/如何部署CFP自选节点瞎扯版.mp4?preview)
 
 #### 1.注册CloudFlare和[笨牛](http://cdn.bnxb.com/)
 
