@@ -40,14 +40,14 @@
         <div class="license-title">{{ $page.post.title }}</div>
         <div class="license-link">
           <a :href="$page.post.path">
-            https://blog.jalenchuh.cn{{ $page.post.path }}
+            https://linik.ml{{ $page.post.path }}
           </a>
         </div>
         <div class="license-meta">
           <div class="license-meta-item">
             <div class="license-meta-title">本文作者</div>
             <div class="license-meta-text">
-              Jalen
+              Loil
             </div>
           </div>
           <div class="license-meta-item">
@@ -180,8 +180,8 @@ export default {
         el: "#Artalk",
         placeholder: "欢迎留言",
         defaultAvatar: "mp",
-        pageKey: "https://blog.jalenchuh.cn" + this.$page.post.path,
-        serverUrl: "https://artalk.jalenchuh.cn",
+        pageKey: "https://linik.ml" + this.$page.post.path,
+        serverUrl: "https://artalk.linik.ml",
         gravatar: {
           cdn: "https://dn-qiniu-avatar.qbox.me/avatar/"
         },
