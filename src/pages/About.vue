@@ -143,8 +143,8 @@ export default {
         el: "#Artalk",
         placeholder: "欢迎留言",
         defaultAvatar: "mp",
-        pageKey: "https://blog.linik.ml/about",
-        serverUrl: "https://artalk",
+        pageKey: "https://linik.ml/about",
+        serverUrl: "https://artalk.linik.ml",
         gravatar: {
           cdn: "https://dn-qiniu-avatar.qbox.me/avatar/"
         },
