@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1 class="tag-title text-center space-bottom">
-      § {{ $page.category.title }}
+      <font-awesome :icon="['fas', 'angle-double-right']" />
+      {{ $page.category.title }}
     </h1>
 
     <div class="posts">
@@ -75,14 +76,14 @@ import PostMeta from "~/components/PostMeta";
 export default {
   components: {
     Author,
-    PostMeta
+    PostMeta,
   },
   metaInfo: {
-    title: "Category"
+    title: "Category",
   },
   data() {
     return {
-      scrolledDist: 0
+      scrolledDist: 0,
     };
   },
   methods: {
@@ -90,7 +91,7 @@ export default {
       if (process.isClient) {
         this.scrolledDist = window.scrollY;
       }
-    }
+    },
   },
   created() {
     if (process.isClient) {
@@ -101,7 +102,7 @@ export default {
     if (process.isClient) {
       window.removeEventListener("scroll", this.handleScroll);
     }
-  }
+  },
 };
 </script>
 
