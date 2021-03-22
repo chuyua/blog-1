@@ -8,14 +8,14 @@ const marked = require("marked");
 // const yaml = require('js-yaml')
 
 module.exports = {
-  siteUrl: "https://blog.linik.cn",
-  siteName: "Lioil's Blog",
+  siteUrl: "https://blog.jalenchuh.cn",
+  siteName: "Jalen's Blog",
   siteDescription: "爱折腾的少年",
 
   templates: {
     Post: "/posts/:slug",
     Tag: "/tag/:id",
-    Category: "/category/:id"
+    Category: "/category/:id",
   },
 
   plugins: [
@@ -29,46 +29,46 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: "Tag",
-            create: true
+            create: true,
           },
           cate: {
             typeName: "Category",
-            create: true
-          }
-        }
-      }
+            create: true,
+          },
+        },
+      },
     },
     {
       use: "@microflash/gridsome-plugin-feed",
       options: {
         contentTypes: ["Post"],
         feedOptions: {
-          title: "Lioil's Blog",
-          description: "Lioil - 爱折腾的少年"
+          title: "Jalen's Blog",
+          description: "少年的我",
         },
         rss: {
           enabled: true,
-          output: "/atom.xml"
+          output: "/atom.xml",
         },
         htmlFields: ["description", "content"],
         enforceTrailingSlashes: false,
-        filterNodes: node => node.published,
-        nodeToFeedItem: node => ({
+        filterNodes: (node) => node.published,
+        nodeToFeedItem: (node) => ({
           title: node.title,
           date: node.date,
-          content: marked(node.content)
-        })
-      }
+          content: marked(node.content),
+        }),
+      },
     },
     {
       use: "@gridsome/plugin-google-analytics",
       options: {
-        id: "UA-185656037-1"
-      }
+        id: "UA-172941976-1",
+      },
     },
     {
-      use: "@gridsome/plugin-sitemap"
-    }
+      use: "@gridsome/plugin-sitemap",
+    },
   ],
 
   transformers: {
@@ -81,14 +81,13 @@ module.exports = {
       autolinkHeadings: true,
       autolinkClassName: "icon icon-link",
       plugins: [
-        ["@gridsome/remark-prismjs", { showLineNumbers: true }],
         "gridsome-plugin-remark-container",
         "gridsome-remark-katex",
-        "gridsome-remark-figure-caption"
+        ["@gridsome/remark-prismjs", { showLineNumbers: true }],
       ],
       config: {
-        footnotes: true
-      }
-    }
-  }
+        footnotes: true,
+      },
+    },
+  },
 };

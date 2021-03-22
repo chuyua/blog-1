@@ -12,6 +12,14 @@
           target="_blank"
           :style="'color: #fff; background-color: ' + friend.background"
           ><div class="friends-left">
+            <img
+              class="avatar"
+              :src="
+                'https://rmt.dogedoge.com/fetch/royce/storage/links/' +
+                friend.id +
+                '.jpg?w=100'
+              "
+            />
           </div>
           <div class="friends-right">
             <p class="friends-name">{{ friend.id }}</p>
@@ -36,41 +44,72 @@ import Author from "~/components/Author";
 
 export default {
   components: {
-    Author
+    Author,
   },
   metaInfo: {
-    title: "Friends"
+    title: "Friends",
   },
   data() {
     return {
       friends: [
         {
-          id: "skrshadow",
-          link: "https://www.skrshadow.cn",
-          avatar: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/skrshadow.jpg?fmt=webp&w=100&h=100&q=100",
-          background: "#078589"
+          id: "Austen",
+          link: "https://blogbyme.cn/",
+          background: "#e1afa5",
         },
         {
-          id: "186526",
-          link: "https://186526.xyz",
-          avatar: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/186526%E7%9A%84%E5%8D%9A%E5%AE%A2.jpg?fmt=webp&w=100&h=100&q=100",
-          background: "#078589"
+          id: "Sanarous",
+          link: "https://bestzuo.cn/",
+          background: "#cea463",
         },
         {
-          id: "skrshadow",
-          link: "https://blog.dmcimi.top",
-          avatar: "Dmcimi",
-          background: "#078589"
+          id: "Eren",
+          link: "https://erenship.com/",
+          background: "#d37597",
         },
-                {
-          id: "skrshadow",
-          link: "https://www.skrshadow.cn",
-          avatar: "https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/skrshadow.jpg?fmt=webp&w=100&h=100&q=100",
-          background: "#078589"
+        {
+          id: "keith",
+          link: "https://keithqwq.com/",
+          background: "#565656",
         },
-      ]
+        {
+          id: "ChrAlpha",
+          link: "https://blog.ichr.me/",
+          background: "#1d89a6",
+        },
+        {
+          id: "奥秘 Sir",
+          link: "https://blog.say521.cn/",
+          background: "#38557e",
+        },
+        {
+          id: "Vince",
+          link: "https://i.vince.pub/",
+          background: "#c97f76",
+        },
+        {
+          id: "CYF",
+          link: "https://blog.cyfan.top/",
+          background: "#f6b352",
+        },
+        {
+          id: "Uncle_drew",
+          link: "https://cndrew.cn/",
+          background: "#918b8b",
+        },
+        {
+          id: "Linhk1606",
+          link: "https://reqwey.vercel.app/",
+          background: "#dfa07c",
+        },
+        {
+          id: "JimmyQin",
+          link: "https://jimmyqin.cn/",
+          background: "#108269",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
