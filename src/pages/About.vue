@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="about-title">
-      <h1 class="about-title__text">About</h1>
+      <h1 class="about-title__text">
+        About
+      </h1>
     </div>
 
     <div class="about content-box">
@@ -9,53 +11,34 @@
         <h3 style="margin-top: 0" id="关于我"><a href="#关于我"></a>关于我</h3>
         <p>
           <a
-            href="https://jalenchuh.cn"
+            href="https://linik.ml"
             target="_blank"
             class="about-me"
             style="color: #0070f3"
             ><font-awesome :icon="['fas', 'id-badge']" /> Student</a
           >
-          /
-          <a
-            href="https://github.com/jalenchuh"
-            target="_blank"
-            class="about-me"
-            style="color: var(--title-color)"
-            ><font-awesome :icon="['fab', 'github']" /> Developer</a
-          >
-          /
-          <a
-            href="https://sspai.com/u/Jalen/posts"
-            target="_blank"
-            class="about-me"
-            style="color: #ca2c2a"
-            ><font-awesome :icon="['fas', 'pen-square']" /> Writer</a
-          >
         </p>
 
         <p>
-          欢迎来到小破站，我是 Jalen，00 后，性别男爱好女。<br />
-          爱折腾的少年，信奉「好看就是生产力」（大雾），对大部分未知事物感兴趣<br />
+          欢迎来到小破站，我是 Lioil，00 后，性别男爱好女。<br />
+          爱折腾的少年，信奉「好看就是生产力」（大雾），对大部分未知事物感兴趣。<br />
           喜欢 🏓 🏐 🏊‍♂️ 💻 and Emoji 😆<br />
           <s>坚定的</s>括号不换行党！只要你也不换行，我们就是好朋友
         </p>
 
-        <p>如果你想联系我，可以直接在评论里留言或者通过邮件</p>
-
         <h3 id="关于博客"><a href="#关于博客"></a>关于博客</h3>
         <p>
-          本站使用 Gridsome 搭建，参考
-          <a href="https://github.com/spencerwooo/blog" target="_blank"
-            >@spencerwooo/blog</a
+          本站使用
+          <a
+            href="https://github.com/gridsome/gridsome-starter-blog"
+            target="_blank"
+            >gridsome-starter-blog</a
           >
-          和
-          <a href="https://github.com/monsterxcn/myBlog" target="_blank"
-            >@monsterxcn/myBlog</a
-          >
-          进行了修改，开源于
-          <a href="https://github.com/jalenchuh/blog" target="_blank"
-            >@jalenchuh/blog</a
-          >
+          搭建
+        </p>
+        <p>
+          本博客题图均为自制，大部分素材来自
+          <a href="https://freepik.com/" target="_blank">freepik</a>。
         </p>
         <div class="admonition admonition-important">
           <div class="admonition-heading">
@@ -73,7 +56,7 @@
                   ></path>
                 </svg>
               </div>
-              版权
+              署名
             </h5>
           </div>
           <div class="admonition-content">
@@ -83,15 +66,12 @@
               target="_blank"
               >CC BY-NC-SA 4.0 协议</a
             >
-            <br />
-            博客题图均为自制，部分素材来自
-            <a href="https://freepik.com/" target="_blank">freepik</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="waline-cards">
+    <div class="artalk-cards">
       <details class="admonition admonition-note">
         <summary>Comment</summary>
         <p>
@@ -99,7 +79,7 @@
           你应该懂得如何发表适当的观点，请对自己的言论负责。
         </p>
       </details>
-      <div id="waline"></div>
+      <div id="Artalk" />
     </div>
 
     <transition name="fade">
@@ -117,25 +97,26 @@
 </template>
 
 <script>
+import "artalk/dist/Artalk.css";
 import Author from "~/components/Author";
 
 export default {
   components: {
-    Author,
+    Author
   },
   metaInfo() {
     return {
       title: "About",
       meta: [
         {
-          name: "description",
-        },
-      ],
+          name: "description"
+        }
+      ]
     };
   },
   data() {
     return {
-      scrolledDist: 0,
+      scrolledDist: 0
     };
   },
   methods: {
@@ -143,7 +124,7 @@ export default {
       if (process.isClient) {
         this.scrolledDist = window.scrollY;
       }
-    },
+    }
   },
   created() {
     if (process.isClient) {
@@ -156,13 +137,24 @@ export default {
     }
   },
   mounted() {
-    const Waline = require("@waline/client");
-    new Waline({
-      el: "#waline",
-      serverURL: "https://api.jalenchuh.cn",
-      // other config
-    });
-  },
+    if (process.env.NODE_ENV === "production") {
+      window.Artalk = require("artalk");
+      const artalk = new Artalk({
+        el: "#Artalk",
+        placeholder: "欢迎留言",
+        defaultAvatar: "mp",
+        pageKey: "https://linik.ml/about",
+        serverUrl: "https://artalk.linik.ml",
+        gravatar: {
+          cdn: "https://dn-qiniu-avatar.qbox.me/avatar/"
+        },
+        readMore: {
+          pageSize: 5,
+          autoLoad: true
+        }
+      });
+    }
+  }
 };
 </script>
 
@@ -186,13 +178,14 @@ export default {
     text-decoration none
 
     &::after
-      display none !important // TODO: Remove this!
+      display none !important //TODO: Remove this!
 
-.waline-cards
+.artalk-cards
   font-family var(--base-font-family)
   background var(--at-bg-main)
   max-width var(--content-width)
   margin 20px auto 100px
+  box-shadow 1px 1px 5px 0 rgba(0, 0, 0, 0.02), 1px 1px 15px 0 rgba(0, 0, 0, 0.03)
 
   details
     margin 0 auto
@@ -221,7 +214,7 @@ export default {
       text-align left
 
 .post-author
-  margin-top calc((var(--space) / 2))
+  margin-top calc(var(--space) / 2)
 
 #back-to-top
   position fixed
@@ -233,9 +226,11 @@ export default {
 #back-to-top-icon
   font-size 1.1em
 
-.fade-enter-active, .fade-leave-active
+.fade-enter-active
+.fade-leave-active
   transition opacity 0.3s ease-in-out
 
-.fade-enter, .fade-leave-to
+.fade-enter
+.fade-leave-to
   opacity 0
 </style>
