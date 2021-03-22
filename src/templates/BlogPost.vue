@@ -100,7 +100,7 @@
           你应该懂得如何发表适当的观点，请对自己的言论负责。
         </p>
       </details>
-      <div id="Artalk" />
+      <div id="Artalk"></div>
     </div>
 
     <transition name="fade">

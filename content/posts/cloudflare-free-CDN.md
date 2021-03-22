@@ -4,7 +4,7 @@ date: 2020-12-12
 published: true
 license: true
 slug: Cloudflare
-cate: 技术
+cate: tech
 tags: ['Cloudflare', 'CDN']
 cover_image: "./images/cloudflare-free-CDN.png"
 canonical_url: false
