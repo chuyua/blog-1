@@ -4,7 +4,7 @@ date: 2020-12-12
 published: true
 license: true
 slug: Cloudflare
-cate: 技术
+cate: tech
 tags: ['Cloudflare', 'CDN']
 cover_image: "./images/cloudflare-free-CDN.png"
 canonical_url: false
@@ -15,7 +15,7 @@ description: "Cloudflare 免费CDN配置教程"
 
 ### 一、几个简单问题
 
-1. 免费版CloudFlare 自定义ip需要使用第三方版本cfp（就是CloudFlare partener）后文使用cfp代替。这里推荐笨牛。 
+1. 免费版CloudFlare 自定义ip需要使用第三方版本cfp（就是CloudFlare partener）后文使用cfp代替。这里推荐笨牛。
 2. 很明显自定义ip要使用非dns接入方式。但是官方版只支持dns接入，所以要使用第三方版本。
 3. http://cdn.bnxb.com/ 本次教程使用的网站
    https://cf.tlo.xyz/ 稳定存在了很长时间，值得使用
