@@ -8,14 +8,14 @@ const marked = require("marked");
 // const yaml = require('js-yaml')
 
 module.exports = {
-  siteUrl: "https://blog.jalenchuh.cn",
-  siteName: "Jalen's Blog",
+  siteUrl: "https://www.linik.ml",
+  siteName: "Lioil's Blog",
   siteDescription: "爱折腾的少年",
 
   templates: {
     Post: "/posts/:slug",
     Tag: "/tag/:id",
-    Category: "/category/:id",
+    Category: "/category/:id"
   },
 
   plugins: [
@@ -29,23 +29,23 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: "Tag",
-            create: true,
+            create: true
           },
           cate: {
             typeName: "Category",
-            create: true,
-          },
-        },
-      },
+            create: true
+          }
+        }
+      }
     },
     {
       use: "@microflash/gridsome-plugin-feed",
       options: {
         contentTypes: ["Post"],
         feedOptions: {
-          title: "Jalen's Blog",
-          description: "少年的我",
-        },
+          title: "Lioil's Blog",
+          description: "少年的我"
+         },
         rss: {
           enabled: true,
           output: "/atom.xml",

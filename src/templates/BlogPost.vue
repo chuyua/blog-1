@@ -174,7 +174,7 @@ export default {
     const Waline = require("@waline/client");
     new Waline({
       el: "#waline",
-      serverURL: "https://api.jalenchuh.cn",
+      serverURL: "https://api-six-lac.vercel.app/",
       // other config
     });
   },

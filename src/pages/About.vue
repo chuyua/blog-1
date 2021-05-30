@@ -9,7 +9,7 @@
         <h3 style="margin-top: 0" id="关于我"><a href="#关于我"></a>关于我</h3>
         <p>
           <a
-            href="https://jalenchuh.cn"
+            href="https://linik.ml"
             target="_blank"
             class="about-me"
             style="color: #0070f3"
@@ -17,7 +17,7 @@
           >
           /
           <a
-            href="https://github.com/jalenchuh"
+            href="https://github.com/chuyu"
             target="_blank"
             class="about-me"
             style="color: var(--title-color)"
@@ -34,8 +34,8 @@
         </p>
 
         <p>
-          欢迎来到小破站，我是 Jalen，00 后，性别男爱好女。<br />
-          爱折腾的少年，信奉「好看就是生产力」（大雾），对大部分未知事物感兴趣<br />
+          欢迎来到小破站，我是 Lioil，00 后，性别男爱好女。<br />
+          爱折腾的少年，信奉「好看就是生产力」（大雾），对大部分未知事物感兴趣。<br />
           喜欢 🏓 🏐 🏊‍♂️ 💻 and Emoji 😆<br />
           <s>坚定的</s>括号不换行党！只要你也不换行，我们就是好朋友
         </p>
@@ -159,7 +159,7 @@ export default {
     const Waline = require("@waline/client");
     new Waline({
       el: "#waline",
-      serverURL: "https://api.jalenchuh.cn",
+      serverURL: "https://api-six-lac.vercel.app/",
       // other config
     });
   },

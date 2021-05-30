@@ -19,7 +19,7 @@
 
     <p class="author__links">
       <g-link
-        href="https://jalenchuh.cn/"
+        href="https://linik.ml/"
         target="_blank"
         style="color: #5c6977"
         v-tooltip="{ content: '🙋‍♂️ Portfolio' }"
@@ -32,7 +32,7 @@
         ><font-awesome :icon="['fas', 'subway']"
       /></g-link>
       <g-link
-        href="//blog.jalenchuh.cn/atom.xml"
+        href="//blog.linik.ml/atom.xml"
         target="_blank"
         style="color: #f5a623"
         v-tooltip="{ content: '📫 RSS' }"
