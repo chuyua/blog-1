@@ -21,7 +21,7 @@
 
     <footer class="footer">
       <div class="footer__copyright">
-        Jalen Chuh © 2019 - {{ new Date().getFullYear() }}.
+        Lioil Chuh © 2019 - {{ new Date().getFullYear() }}.
         <a
           href="http://beian.miit.gov.cn/"
           target="_blank"
@@ -36,12 +36,6 @@
         >
         and <font-awesome :icon="['fas', 'heart']" />Love.
       </div>
-      <a
-        href="//www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
-        target="_blank"
-      >
-        <g-image src="~/assets/images/upyun.svg" />
-      </a>
     </footer>
   </div>
 </template>

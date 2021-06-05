@@ -40,13 +40,13 @@
         <div class="license-title">{{ $page.post.title }}</div>
         <div class="license-link">
           <a :href="$page.post.path">
-            https://blog.jalenchuh.cn{{ $page.post.path }}
+            https://linik.ml/{{ $page.post.path }}
           </a>
         </div>
         <div class="license-meta">
           <div class="license-meta-item">
             <div class="license-meta-title">本文作者</div>
-            <div class="license-meta-text">Jalen</div>
+            <div class="license-meta-text">Lioil's</div>
           </div>
           <div class="license-meta-item">
             <div class="license-meta-title">发布于</div>
