@@ -24,13 +24,6 @@
             ><font-awesome :icon="['fab', 'github']" /> Developer</a
           >
           /
-          <a
-            href="https://sspai.com/u/Jalen/posts"
-            target="_blank"
-            class="about-me"
-            style="color: #ca2c2a"
-            ><font-awesome :icon="['fas', 'pen-square']" /> Writer</a
-          >
         </p>
 
         <p>
