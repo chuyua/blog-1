@@ -8,7 +8,7 @@ const marked = require("marked");
 // const yaml = require('js-yaml')
 
 module.exports = {
-  siteUrl: "https://www.linik.ml",
+  siteUrl: "https://blog.linik.cn",
   siteName: "Lioil's Blog",
   siteDescription: "爱折腾的少年",
 
@@ -44,25 +44,31 @@ module.exports = {
         contentTypes: ["Post"],
         feedOptions: {
           title: "Lioil's Blog",
-          description: "少年的我"
-         },
+          description: "Lioil - 爱折腾的少年"
+        },
         rss: {
           enabled: true,
-          output: "/atom.xml",
+          output: "/atom.xml"
         },
         htmlFields: ["description", "content"],
         enforceTrailingSlashes: false,
-        filterNodes: (node) => node.published,
-        nodeToFeedItem: (node) => ({
+        filterNodes: node => node.published,
+        nodeToFeedItem: node => ({
           title: node.title,
           date: node.date,
-          content: marked(node.content),
-        }),
-      },
+          content: marked(node.content)
+        })
+      }
     },
     {
-      use: "@gridsome/plugin-sitemap",
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-185656037-1"
+      }
     },
+    {
+      use: "@gridsome/plugin-sitemap"
+    }
   ],
 
   transformers: {
@@ -75,13 +81,14 @@ module.exports = {
       autolinkHeadings: true,
       autolinkClassName: "icon icon-link",
       plugins: [
+        ["@gridsome/remark-prismjs", { showLineNumbers: true }],
         "gridsome-plugin-remark-container",
         "gridsome-remark-katex",
-        ["@gridsome/remark-prismjs", { showLineNumbers: true }],
+        "gridsome-remark-figure-caption"
       ],
       config: {
-        footnotes: true,
-      },
-    },
-  },
+        footnotes: true
+      }
+    }
+  }
 };
