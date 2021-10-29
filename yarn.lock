@@ -1273,10 +1273,10 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@waline/client@^0.14.7":
-  version "0.14.7"
-  resolved "https://registry.yarnpkg.com/@waline/client/-/client-0.14.7.tgz#951e41caa27c2d6ce09f10f04717a67e8bc3926b"
-  integrity sha512-nxggvVwuzGzzSsL6vS9oEqPfcknjAzABr8BExA1Z2fy5yE9QTa5Y4mr+6xAaprZDjotQ01VVoc2NTlgD9zkzUA==
+"@waline/client@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@waline/client/-/client-0.17.0.tgz#2ca3b4a8bac235e48c4f5afe36e8c7111204020e"
+  integrity sha512-Tr6SjHRmHU01zfs5tXrvrhMOa5GmVn5C5O0KGteoizh2JGK06dhAEHb47cVn4KfsTN2jtc+6ByEsqGQK1AJ+kQ==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -2477,9 +2477,9 @@ color-name@^1.0.0, color-name@~1.1.4:
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
 color-string@^1.5.2, color-string@^1.5.3:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.6.0.tgz#c3915f61fe267672cb7e1e064c9d692219f6c312"
-  integrity sha512-c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA==
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.5.5.tgz#65474a8f0e7439625f3d27a6a19d89fc45223014"
+  integrity sha512-jgIoum0OfQfq9Whcfc2z/VhCNcmQjWbey6qBX0vqt7YICflUmBCh9E9CiQD5GSJ+Uehixm3NUwHVhqUAWRivZg==
   dependencies:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
@@ -3395,9 +3395,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.723:
-  version "1.3.742"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.742.tgz#7223215acbbd3a5284962ebcb6df85d88b95f200"
-  integrity sha512-ihL14knI9FikJmH2XUIDdZFWJxvr14rPSdOhJ7PpS27xbz8qmaRwCwyg/bmFwjWKmWK9QyamiCZVCvXm5CH//Q==
+  version "1.3.739"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.739.tgz#f07756aa92cabd5a6eec6f491525a64fe62f98b9"
+  integrity sha512-+LPJVRsN7hGZ9EIUUiWCpO7l4E3qBYHNadazlucBfsXBbccDFNKUBAgzE68FnkWGJPwD/AfKhSzL+G+Iqb8A4A==
 
 elliptic@^6.5.3:
   version "6.5.4"

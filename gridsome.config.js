@@ -15,7 +15,7 @@ module.exports = {
   templates: {
     Post: "/posts/:slug",
     Tag: "/tag/:id",
-    Category: "/category/:id"
+    Category: "/category/:id",
   },
 
   plugins: [
@@ -29,14 +29,14 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: "Tag",
-            create: true
+            create: true,
           },
           cate: {
             typeName: "Category",
-            create: true
-          }
-        }
-      }
+            create: true,
+          },
+        },
+      },
     },
     {
       use: "@microflash/gridsome-plugin-feed",
@@ -44,8 +44,8 @@ module.exports = {
         contentTypes: ["Post"],
         feedOptions: {
           title: "Lioil's Blog",
-          description: "少年的我"
-         },
+          description: "少年的我",
+        },
         rss: {
           enabled: true,
           output: "/atom.xml",
