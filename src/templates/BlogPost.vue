@@ -40,7 +40,7 @@
         <div class="license-title">{{ $page.post.title }}</div>
         <div class="license-link">
           <a :href="$page.post.path">
-            https://blog.jalenchuh.cn{{ $page.post.path }}
+            https://linik.ml{{ $page.post.path }}
           </a>
         </div>
         <div class="license-meta">
