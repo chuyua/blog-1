@@ -40,13 +40,13 @@
         <div class="license-title">{{ $page.post.title }}</div>
         <div class="license-link">
           <a :href="$page.post.path">
-            https://linik.ml/{{ $page.post.path }}
+            https://blog.jalenchuh.cn{{ $page.post.path }}
           </a>
         </div>
         <div class="license-meta">
           <div class="license-meta-item">
             <div class="license-meta-title">本文作者</div>
-            <div class="license-meta-text">Lioil's</div>
+            <div class="license-meta-text">Jalen</div>
           </div>
           <div class="license-meta-item">
             <div class="license-meta-title">发布于</div>
@@ -174,6 +174,8 @@ export default {
     const Waline = require("@waline/client");
     new Waline({
       el: "#waline",
+      login: "disable",
+      dark: 'body[data-theme="dark"]',
       serverURL: "https://api-six-lac.vercel.app/",
       // other config
     });
@@ -413,4 +415,7 @@ query Post ($id: ID!, $previousElement: ID!, $nextElement: ID!) {
 
     &-item
       margin 0 2rem 1em 0
+
+.v[data-class=v] .vaction
+  display none !important
 </style>
