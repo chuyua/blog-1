@@ -1,13 +1,14 @@
 ---
 title: "使用Replit白嫖"
-date: 2022-4-17
+date: 2021-12-12
 published: true
 license: true
-slug: tech
-tags: ['白嫖''Replit']
-cate: life
-cover_image: "./images/2020-10-week1.png"
+slug: Replit
+cate: tech
+tags: ['free', 'Replit']
+cover_image: "./images/cloudflare-free-CDN.png"
 canonical_url: false
+description: "使用Replit免费白嫖配置教程"
 ---
 
 ## alist
