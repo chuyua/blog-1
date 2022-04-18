@@ -10,7 +10,6 @@ cover_image: "./images/cloudflare-free-CDN.png"
 canonical_url: false
 description: "使用Replit免费白嫖配置教程"
 ---
-
 ## alist
 
 注册登录 Replit 并创建教育 Team（私有仓库）。或不注册直接继续
@@ -20,7 +19,7 @@ description: "使用Replit免费白嫖配置教程"
 
 alist 在shell窗口下输入命令即可
 
-`git clone https://github.com/alist-org/alist-replit && mv -b alist-replit/* ./ && mv -b alist-replit/.[^.]* ./ && rm -rf *~ && rm -rf alist-replit`
+> git clone https://github.com/alist-org/alist-replit && mv -b alist-replit/* ./ && mv -b alist-replit/.[^.]* ./ && rm -rf *~ && rm -rf alist-replit
 
 [![LafoZt.png](https://s1.ax1x.com/2022/04/18/LafoZt.png)](https://imgtu.com/i/LafoZt)
 回车然后run [![Lah9oV.png](https://s1.ax1x.com/2022/04/18/Lah9oV.png)](https://imgtu.com/i/Lah9oV)
