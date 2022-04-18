@@ -19,9 +19,8 @@ canonical_url: false
 
 alist 在shell窗口下输入命令即可
 
-> git clone https://github.com/alist-org/alist-replit && mv -b alist-replit/* ./ && mv -b alist-replit/.[^.]* ./ && rm -rf *~ && rm -rf alist-replit
-> [![LafoZt.png](https://s1.ax1x.com/2022/04/18/LafoZt.png)](https://imgtu.com/i/LafoZt)
-> 回车然后run
-> [![Lah9oV.png](https://s1.ax1x.com/2022/04/18/Lah9oV.png)](https://imgtu.com/i/Lah9oV)
+`git clone https://github.com/alist-org/alist-replit && mv -b alist-replit/* ./ && mv -b alist-replit/.[^.]* ./ && rm -rf *~ && rm -rf alist-replit`
 
+[![LafoZt.png](https://s1.ax1x.com/2022/04/18/LafoZt.png)](https://imgtu.com/i/LafoZt)
+回车然后run [![Lah9oV.png](https://s1.ax1x.com/2022/04/18/Lah9oV.png)](https://imgtu.com/i/Lah9oV)
 
