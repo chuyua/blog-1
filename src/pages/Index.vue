@@ -71,7 +71,7 @@ export default {
     PostCard,
   },
   metaInfo: {
-    title: "Jalen Chuh",
+    title: "Danhai",
   },
   data() {
     return {

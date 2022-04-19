@@ -53,7 +53,7 @@
             >@monsterxcn/myBlog</a
           >
           进行了修改，开源于
-          <a href="https://github.com/jalenchuh/blog" target="_blank"
+          <a href="https://github.com/chuyua/blog" target="_blank"
             >@jalenchuh/blog</a
           >
         </p>
