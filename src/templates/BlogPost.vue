@@ -46,7 +46,7 @@
         <div class="license-meta">
           <div class="license-meta-item">
             <div class="license-meta-title">本文作者</div>
-            <div class="license-meta-text">Jalen</div>
+            <div class="license-meta-text">Danhai</div>
           </div>
           <div class="license-meta-item">
             <div class="license-meta-title">发布于</div>
