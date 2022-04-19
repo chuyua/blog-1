@@ -36,11 +36,6 @@
         >
         and <font-awesome :icon="['fas', 'heart']" />Love.
       </div>
-      <a
-        href="//www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
-        target="_blank"
-      >
-        <g-image src="~/assets/images/upyun.svg" />
       </a>
     </footer>
   </div>
