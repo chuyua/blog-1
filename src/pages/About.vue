@@ -9,7 +9,7 @@
         <h3 style="margin-top: 0" id="关于我"><a href="#关于我"></a>关于我</h3>
         <p>
           <a
-            href="https://jalenchuh.cn"
+            href="https://linik.ml"
             target="_blank"
             class="about-me"
             style="color: #0070f3"
@@ -22,14 +22,6 @@
             class="about-me"
             style="color: var(--title-color)"
             ><font-awesome :icon="['fab', 'github']" /> Developer</a
-          >
-          /
-          <a
-            href="https://sspai.com/u/Jalen/posts"
-            target="_blank"
-            class="about-me"
-            style="color: #ca2c2a"
-            ><font-awesome :icon="['fas', 'pen-square']" /> Writer</a
           >
         </p>
 
@@ -161,7 +153,7 @@ export default {
       el: "#waline",
       login: "disable",
       dark: 'body[data-theme="dark"]',
-      serverURL: "https://api.jalenchuh.cn",
+      serverURL: "https://api-six-lac.vercel.app",
       // other config
     });
   },
