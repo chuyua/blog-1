@@ -1,1 +1,0 @@
-# Lioil's www.linik.ml) · [@Blog](https://www.linik.ml) · [@GitHub](https://github.com/jalenchuh)
