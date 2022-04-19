@@ -19,6 +19,7 @@ description: "使用Replit免费白嫖配置教程"
 ![Laf4sA.png](https://s1.ax1x.com/2022/04/18/Laf4sA.png)
 
 alist 在shell窗口下输入命令即可，更新也是一样
+
 `git clone https://github.com/alist-org/alist-replit && mv -b alist-replit/* ./ && mv -b alist-replit/.[^.]* ./ && rm -rf *~ && rm -rf alist-replit`
 
 ![LafoZt.png](https://s1.ax1x.com/2022/04/18/LafoZt.png)
@@ -34,6 +35,7 @@ alist 在shell窗口下输入命令即可，更新也是一样
 ![L0Njv8.md.png](https://s1.ax1x.com/2022/04/19/L0Njv8.md.png)
 
 在shell窗口下输入命令，等待一会点击绿色run按键完事，更新也是一样
+
 `git clone https://github.com/typecho/typecho && mv -b typecho/* ./ && mv -b typecho/.[^.]* ./ && rm -rf *~ && rm -rf typecho`
 
 ![L0Utqe.md.png](https://s1.ax1x.com/2022/04/19/L0Utqe.md.png)
