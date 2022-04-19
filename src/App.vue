@@ -21,12 +21,12 @@
 
     <footer class="footer">
       <div class="footer__copyright">
-        Jalen Chuh © 2019 - {{ new Date().getFullYear() }}.
+        Danhai Chuh © 2019 - {{ new Date().getFullYear() }}.
         <a
           href="http://beian.miit.gov.cn/"
           target="_blank"
           style="text-decoration: none"
-          >闽ICP备20005437号-2</a
+          >萌ICP备20005437号-2</a
         >
       </div>
       <div class="footer__links">
