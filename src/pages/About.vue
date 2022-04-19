@@ -17,7 +17,7 @@
           >
           /
           <a
-            href="https://github.com/jalenchuh"
+            href="https://github.com/chuyua"
             target="_blank"
             class="about-me"
             style="color: var(--title-color)"
