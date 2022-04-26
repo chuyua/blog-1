@@ -40,5 +40,17 @@ alist 在shell窗口下输入命令即可，更新也是一样
 
 ![L0Utqe.md.png](https://s1.ax1x.com/2022/04/19/L0Utqe.md.png)
 
+ ## replit安装artalk私有评论区
+
+如上注册后登录，然后如图创建bash仓库
+
+![L0Njv8.md.png](https://s1.ax1x.com/2022/04/19/L0Njv8.md.png)
+
+在shell窗口下输入命令，等待一会点击绿色run按键完事，更新也是一样
+
+`git clone https://github.com/chuyua/replit-artalk && mv -b replit-artalk/* ./ && mv -b replit-artalk/.[^.]* ./ && rm -rf *~ && rm -rf replit-artalk`
+
+![L0Utqe.md.png](https://s1.ax1x.com/2022/04/19/L0Utqe.md.png)
+
 
 
