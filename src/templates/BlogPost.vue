@@ -176,7 +176,7 @@ export default {
       el: "#waline",
       login: "disable",
       dark: 'body[data-theme="dark"]',
-      serverURL: "https://api.jalenchuh.cn",
+      serverURL: "https://api-six-lac.vercel.app/",
       // other config
     });
   },
